@@ -7,5 +7,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return bool(a)
-print(main(7))
+    return a == 7
+print(main(8))
