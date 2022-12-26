@@ -8,8 +8,7 @@ def main(b):
         bool
     """
     # Write your code here
-    a = 8
-    b = a>=0
-    return b 
+    
+    return  b > 0
 
-print(main(True))    
+print(main(8))    
