@@ -8,5 +8,5 @@ def main(a):
     """
     # Write your code here
     a = a % 2
-    return bool(a == 0)
-print(main(2))    
+    return bool(a != 0)
+print(main(8))    
