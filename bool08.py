@@ -1,3 +1,4 @@
+from math import *
 def main(a):
     """
     check the whole number. Integers are 0 and a positive number.
@@ -8,4 +9,4 @@ def main(a):
     """
     # Write your code here
     return a >= 0
-print(main(-2))    
+print(main(-3))    
