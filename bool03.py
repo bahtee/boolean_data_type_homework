@@ -1,3 +1,4 @@
+import math
 def main(b):
     """
     check the following statement "The variable "b" is positive"
@@ -7,4 +8,8 @@ def main(b):
         bool
     """
     # Write your code here
-    return 
+    a = 8
+    b = a>=0
+    return b 
+
+print(main(True))    
